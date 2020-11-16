@@ -1,0 +1,8 @@
+---
+name: AdvancedPots
+version: 1.0.0
+author: xPrim69x
+main: Prim69\AdvancedPots\Main
+description: Pots improved by Prim
+api: 3.0.0
+...
