@@ -18,6 +18,7 @@ class Main extends PluginBase implements Listener{
 	public function onHit(ProjectileHitBlockEvent $event){
 		$projectile = $event->getEntity();
 		if(!$projectile instanceof SplashPotion) return;
+		if($projectile->getPotionId() !== 22) return;
 		$player = $projectile->getOwningEntity();
 		if(!$player) return;
 		$distance = $projectile->distance($player);
